@@ -1910,4 +1910,8 @@ padding:10px
         width: 100%;
     }
     .firstAboutDetails{padding: 20px;}
+    .resultsLink{
+        width: 150px;
+        float: left;
+    }
 }
