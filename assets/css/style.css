@@ -1634,7 +1634,26 @@ header {
     background-color: #064F37;
     color: white
 }
+.navbar-toggler {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    padding: 0
+}
 
+.navbar-toggler i {
+    content: "";
+    background-color: white;
+    display: block;
+    margin-bottom: 7px;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+
+}
+header.scrollNav .navbar-toggler i{
+    background-color:#004F38;
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 1264px;
@@ -1690,4 +1709,205 @@ header.scrollNav .scrollNavLogo,header .headerLogo{
 
 .navbar-brand{
     margin-right: 0;
+}
+@media(max-width:850px){
+    body{
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+    .socialIcon li{
+        margin-left: 10px;
+    }
+    .heroNewsDetails{
+        width: 100%;
+    }
+    .heroNews{
+        margin-top: 150px;
+        position: relative;
+        z-index: 2;
+        flex-direction: column;
+    }
+    .moreBtn{
+        margin-right: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .servicesDetails{
+        margin-top: 20px;
+    }
+    .moreservicesBtn{
+        width: 100%;
+    }
+    section{
+        padding:20px 0 !important;
+    }
+    .owl-dot{
+        display: none !important;
+    }
+    .otherSectionCotnet{
+        width: 100%;
+        padding: 0
+    }
+    .othersSection{
+        padding: 0;
+    }
+    .othersPillls{
+        flex-direction: row !important;
+        width: 100%;
+        justify-content: center;
+        border:0
+    }
+    .othersPillls .nav-link{
+        width: auto;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    .othersPillls .nav-link:before{
+        width: 80%;
+        left: auto;
+        top: auto;
+        bottom:10%;
+    display:none;
+    }
+    .othersPillls .nav-link:after,  .othersPillls .nav-link.active:after{
+display: none;
+
+    }
+    .othersPillls .nav-link.active:before{
+        display: block;
+    }
+    .otherSectioncontainer{
+        width: 100%;;
+        padding:10px;
+        margin-top:10px
+    }
+    .othersSlider .owl-nav{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .adssliderContent{
+        flex-direction: column;
+    }
+    .advSliderItem{
+        padding:20px 10px;
+        height: 300px;
+    }
+    .advSliderItem p{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .adssliderContent{
+        align-self: auto;
+    }
+    .advDate{
+        margin-right: 0 ;
+        margin-top:20px
+    }
+    .footerLogo{width: 100%;}
+    .footerText{
+        margin-bottom: 19px;
+    }
+    .footerSocialIcon{
+        margin-bottom: 40px;
+    }
+    .activitisCard{
+        margin-bottom: 20px;
+    }
+    .upperHeader{
+        height: 70px;
+    }
+    header{
+        top:50px
+    }
+    .navbar-collapse{
+        background-color: white;
+        position: absolute;
+        width: 100vw;
+        top: -61px;
+        left: -15px;
+        padding: 10px;
+    }
+    .close{
+        float: left;
+        font-size: 14px;
+        color:black
+    }
+    .navbar-expand-lg .navbar-nav .nav-link,.langBtn,.navbar-expand-lg .navbar-nav .nav-item.active .nav-link{
+        color:black
+    }
+    .langBtn{
+        margin-right: 0;
+    }
+    .flagImg{
+        width: 20px !important;
+    }
+    .scrollNav .navbar-collapse{
+        top:0
+    }
+    section.heroSec{
+        padding:0 !important
+    }
+    .firstAboutDetails{
+        padding: 0;
+    }
+    .abouPagetImg{
+        margin-left: 10px;
+    }
+    .innerHeaderContent{
+        text-align: center;
+        font-size: 2.5em;
+    }
+    .innerHero{
+        height:312px
+    }
+    .abouPagetImg {
+        margin-bottom: 20px;
+    }
+    .copyImg{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .privacyList{
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .copy{
+        margin-top: 15px;
+    }
+    .compitionllsnavpills .nav-link{
+        font-size: 1em;
+        padding: 10px
+    }
+    .comptionTab-content-cont{
+        padding: 0;
+        padding-top:20px;
+    }
+    .resultsLink{
+        float: none;
+        width: 100%;
+    }
+    .compition-Pillls{
+        flex-direction: row !important;
+        margin-bottom: 10px;
+    }
+    .compition-Pillls.nav-pills .nav-link{
+margin-bottom: 0;
+padding:10px
+    }
+    .mediaPageGallery .mediaImg{
+        width: 100%;
+    }
+    .mediaPills .nav-link{
+        margin-left: 30px;
+    }
+}
+@media(min-width:820px) and (max-width:1100px){
+    .navbar-collapse{
+        left: auto;
+    }
+    .aboutImg{
+        width: 100%;
+    }
+    .firstAboutDetails{padding: 20px;}
 }

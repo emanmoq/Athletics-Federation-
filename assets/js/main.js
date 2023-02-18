@@ -47,13 +47,19 @@ jQuery(function ($) {
         nav: true,
         rtl: true,
         margin: 20,
+        dots:false,
         responsive: {
             0: {
                 items: 1,
+                nav:false
             },
             700: {
-                items: 3,
+                items: 2,
+                nav:false
             },
+            1000:{
+                items:3
+            }
 
         },
         dotsContainer: '.newsDots',
@@ -94,9 +100,11 @@ jQuery(function ($) {
         responsive: {
             0: {
                 items: 2,
+                stagePadding:0,
             },
             700: {
                 items: 3,
+                stagePadding:0,
             },
             1000: {
                 items: 4,
@@ -184,5 +192,8 @@ jQuery(function ($) {
     $('.adminSliderDots').on('click', 'li', function (e) {
         $(".adminSlider").trigger('to.owl.carousel', [$(this).index(), 300]);
     });
+    $(".close").click(function(){
+        $(this).parent().removeClass('show')
+    })
 });
 
