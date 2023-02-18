@@ -1914,4 +1914,7 @@ padding:10px
         width: 150px;
         float: left;
     }
+    .mediaPageGallery .mediaImg{
+        width: 25%;
+    }
 }
