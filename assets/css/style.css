@@ -1507,7 +1507,8 @@ header {
 }
 
 .resulltPageBody {
-    padding: 128px 0;
+    padding-top: 50px;
+    padding-bottom: 128px;
 }
 
 .resultsTable thead {
@@ -1733,6 +1734,56 @@ header .headerLogo {
     margin-right: 0;
 }
 
+.parNamesLink {
+    width: 146px;
+    height: 56px;
+    border: 1px solid #BFBFBF;
+    font-weight: 400;
+    font-size: 16px;
+    color: #004F38;
+    margin-right: auto;
+}
+
+.parNamesLink:hover {
+    background-color: #004F38;
+    color: white
+}
+
+.parNamesLink span {
+    text-decoration: underline;
+}
+
+.resultPageHeader {
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.resultPageHeader .sectionTitle {
+    margin-bottom: 0;
+    align-self: center;
+}
+
+.resultUpperBtn {
+    margin-bottom: 82px;
+    width: 408px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 1.125em;
+    color: #000000;
+border: 1px solid #BFBFBF;
+justify-content: space-between;
+padding: 0 16px;
+}
+.resultUpperBtn:hover{
+    background-color: #004F38;
+    color: white;;
+}
+
+.resultUpperBtn  span:last-child{
+    margin-right: auto;
+}
 @media(max-width:850px) {
     body {
         font-size: 14px;
@@ -2020,6 +2071,7 @@ header .headerLogo {
         /*  height of nav-item  */
         top: 100%;
         left: 0;
+        border: 0;
     }
 
     /* shows the dropdown menu on hover */
@@ -2044,13 +2096,14 @@ header .headerLogo {
         color: black;
 
     }
+
     .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link span {
         font-size: 12px;
         font-weight: 400;
 
     }
-    .navbar-expand-lg .navbar-nav .nav-item .dropdown-menu .nav-item
-    {
+
+    .navbar-expand-lg .navbar-nav .nav-item .dropdown-menu .nav-item {
         text-align: right;
         margin-bottom: 24px;
     }

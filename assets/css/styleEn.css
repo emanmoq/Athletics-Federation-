@@ -15,6 +15,7 @@ body {
     font-family: "FF Shamel Sans One";
     color: black;
     background-color: #F9F9F9;
+    overflow-x:hidden ;
 }
 
 a {
@@ -1498,7 +1499,8 @@ header {
 }
 
 .resulltPageBody {
-    padding: 128px 0;
+    padding-top:50px;
+    padding-bottom: 128px;
 }
 
 .resultsTable thead {
@@ -1653,6 +1655,56 @@ header {
 }
 header.scrollNav .navbar-toggler i{
     background-color:#004F38;
+}
+.parNamesLink {
+    width: 146px;
+    height: 56px;
+    border: 1px solid #BFBFBF;
+    font-weight: 400;
+    font-size: 16px;
+    color: #004F38;
+    margin-right: auto;
+}
+
+.parNamesLink:hover {
+    background-color: #004F38;
+    color: white
+}
+
+.parNamesLink span {
+    text-decoration: underline;
+}
+
+.resultPageHeader {
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.resultPageHeader .sectionTitle {
+    margin-bottom: 0;
+    align-self: center;
+}
+
+.resultUpperBtn {
+    margin-bottom: 82px;
+    width: 408px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 1.125em;
+    color: #000000;
+border: 1px solid #BFBFBF;
+justify-content: space-between;
+padding: 0 16px;
+}
+.resultUpperBtn:hover{
+    background-color: #004F38;
+    color: white;;
+}
+
+.resultUpperBtn  span:last-child{
+    margin-right: auto;
 }
 @media (min-width: 1200px) {
     .container {
@@ -1916,5 +1968,55 @@ padding:10px
     }
     .mediaPageGallery .mediaImg{
         width: 25%;
+    }
+}
+@media screen and (min-width: 992px) {
+
+
+
+    .navbar .dropdown {
+        position: static;
+    }
+
+    .navbar .dropdown-menu {
+        width: 100vw;
+        padding: 32px 0;
+        left: -12%;
+        /*  height of nav-item  */
+        top: 100%;
+        right: 0;
+        background-color: #fff;
+
+        border: 0;
+    }
+
+    /* shows the dropdown menu on hover */
+    .navbar .dropdown:hover .dropdown-menu,
+    .navbar .dropdown .dropdown-menu:hover {
+        display: block !important;
+    }
+
+  
+    .navbar-expand-lg .navbar-nav .dropdown-menu .nav-link {
+        color: black;
+        padding: 0;
+        padding-bottom: 4px;
+    }
+
+
+
+    .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link {
+        color: black;
+
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link span {
+        font-size: 12px;
+        font-weight: 400;
+
+    }
+    .navbar-expand-lg .navbar-nav .nav-item .dropdown-menu .nav-item
+    {
+        text-align: left;
+        margin-bottom: 24px;
     }
 }
