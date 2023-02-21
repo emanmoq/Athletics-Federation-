@@ -15,6 +15,7 @@ body {
     font-family: "FF Shamel Sans One";
     color: black;
     background-color: #F9F9F9;
+    overflow-x: hidden;
 }
 
 a {
@@ -107,18 +108,22 @@ li {
     background-color: white;
     padding: 5px 0
 }
-.scrollNav .navbar-expand-lg .navbar-nav .nav-item .nav-link{
-color:#121212
+
+.scrollNav .navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    color: #121212
 }
-.scrollNav .navbar-expand-lg .navbar-nav .nav-item.active .nav-link{
-    color:#121212
+
+.scrollNav .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+    color: #121212
 }
-.scrollNav .langBtn{
-    color:#121212;
-    border:1px solid #BFBFBF
+
+.scrollNav .langBtn {
+    color: #121212;
+    border: 1px solid #BFBFBF
 }
-.scrollNav .langBtn:hover{
-    color:white
+
+.scrollNav .langBtn:hover {
+    color: white
 }
 
 .btn span {
@@ -165,6 +170,10 @@ color:#121212
     transition: all .5s;
     ;
 
+}
+
+.scrollNav .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
+    color: black
 }
 
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
@@ -1634,6 +1643,7 @@ header {
     background-color: #064F37;
     color: white
 }
+
 .navbar-toggler {
     width: 40px;
     height: 40px;
@@ -1651,9 +1661,11 @@ header {
     border-radius: 5px;
 
 }
-header.scrollNav .navbar-toggler i{
-    background-color:#004F38;
+
+header.scrollNav .navbar-toggler i {
+    background-color: #004F38;
 }
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1264px;
@@ -1673,21 +1685,26 @@ header.scrollNav .navbar-toggler i{
 
 .compitionSliderImg:first-child {
     margin-bottom: 16px;
-}.compitionSlider .owl-nav {
+}
+
+.compitionSlider .owl-nav {
     width: auto;
     top: -34px;
 }
-.footerTitle{
+
+.footerTitle {
     font-size: 1em;
-    color:#F9F9F9;
+    color: #F9F9F9;
     margin-bottom: 12px;
 }
-.footerText{
-font-size:  0.75em;
-color: white;
-margin-bottom: 49px;
+
+.footerText {
+    font-size: 0.75em;
+    color: white;
+    margin-bottom: 49px;
 }
-.jobsLink{
+
+.jobsLink {
     text-decoration: underline;
     color: white;
     font-size: .875em;
@@ -1696,130 +1713,169 @@ margin-bottom: 49px;
     margin-bottom: 32px;
     margin-top: 23px;
 }
-.jobsLink:hover{
+
+.jobsLink:hover {
     color: #E65A33;
 
 }
-header .scrollNavLogo,header.scrollNav .headerLogo{
+
+header .scrollNavLogo,
+header.scrollNav .headerLogo {
     display: none
 }
-header.scrollNav .scrollNavLogo,header .headerLogo{
+
+header.scrollNav .scrollNavLogo,
+header .headerLogo {
     display: block;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-right: 0;
 }
-@media(max-width:850px){
-    body{
+
+@media(max-width:850px) {
+    body {
         font-size: 14px;
         overflow-x: hidden;
     }
-    .socialIcon li{
+
+    .socialIcon li {
         margin-left: 10px;
     }
-    .heroNewsDetails{
+
+    .heroNewsDetails {
         width: 100%;
     }
-    .heroNews{
+
+    .heroNews {
         margin-top: 150px;
         position: relative;
         z-index: 2;
         flex-direction: column;
     }
-    .moreBtn{
+
+    .moreBtn {
         margin-right: 0;
         margin-top: 20px;
         width: 100%;
     }
-    .servicesDetails{
+
+    .servicesDetails {
         margin-top: 20px;
     }
-    .moreservicesBtn{
+
+    .moreservicesBtn {
         width: 100%;
     }
-    section{
-        padding:20px 0 !important;
+
+    section {
+        padding: 20px 0 !important;
     }
-    .owl-dot{
+
+    .owl-dot {
         display: none !important;
     }
-    .otherSectionCotnet{
+
+    .otherSectionCotnet {
         width: 100%;
         padding: 0
     }
-    .othersSection{
+
+    .othersSection {
         padding: 0;
     }
-    .othersPillls{
+
+    .othersPillls {
         flex-direction: row !important;
         width: 100%;
         justify-content: center;
-        border:0
+        border: 0
     }
-    .othersPillls .nav-link{
+
+    .othersPillls .nav-link {
         width: auto;
         display: inline-block;
         margin-bottom: 0;
     }
-    .othersPillls .nav-link:before{
+
+    .othersPillls .nav-link:before {
         width: 80%;
         left: auto;
         top: auto;
-        bottom:10%;
-    display:none;
+        bottom: 10%;
+        display: none;
     }
-    .othersPillls .nav-link:after,  .othersPillls .nav-link.active:after{
-display: none;
+
+    .othersPillls .nav-link:after,
+    .othersPillls .nav-link.active:after {
+        display: none;
 
     }
-    .othersPillls .nav-link.active:before{
+
+    .othersPillls .nav-link.active:before {
         display: block;
     }
-    .otherSectioncontainer{
-        width: 100%;;
-        padding:10px;
-        margin-top:10px
+
+    .otherSectioncontainer {
+        width: 100%;
+        ;
+        padding: 10px;
+        margin-top: 10px
     }
-    .othersSlider .owl-nav{
+
+    .othersSlider .owl-nav {
         width: 100%;
         margin-top: 10px;
     }
-    .adssliderContent{
+
+    .adssliderContent {
         flex-direction: column;
     }
-    .advSliderItem{
-        padding:20px 10px;
+
+    .advSliderItem {
+        padding: 20px 10px;
         height: 300px;
     }
-    .advSliderItem p{
+
+    .advSliderItem p {
         width: 100%;
         font-size: 1.5em;
     }
-    .adssliderContent{
+
+    .adssliderContent {
         align-self: auto;
     }
-    .advDate{
-        margin-right: 0 ;
-        margin-top:20px
+
+    .advDate {
+        margin-right: 0;
+        margin-top: 20px
     }
-    .footerLogo{width: 100%;}
-    .footerText{
+
+    .footerLogo {
+        width: 100%;
+    }
+
+    .footerText {
         margin-bottom: 19px;
     }
-    .footerSocialIcon{
+
+    .footerSocialIcon {
         margin-bottom: 40px;
     }
-    .activitisCard{
+
+    .activitisCard {
         margin-bottom: 20px;
     }
-    .upperHeader{
+
+    .upperHeader {
         height: 70px;
     }
-    header{
-        top:50px
+
+    header {
+        top: 50px
     }
-    .navbar-collapse{
+
+    .navbar-collapse {
         background-color: white;
         position: absolute;
         width: 100vw;
@@ -1827,94 +1883,175 @@ display: none;
         left: -15px;
         padding: 10px;
     }
-    .close{
+
+    .close {
         float: left;
         font-size: 14px;
-        color:black
+        color: black
     }
-    .navbar-expand-lg .navbar-nav .nav-link,.langBtn,.navbar-expand-lg .navbar-nav .nav-item.active .nav-link{
-        color:black
+
+    .navbar-expand-lg .navbar-nav .nav-link,
+    .langBtn,
+    .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+        color: black
     }
-    .langBtn{
+
+    .langBtn {
         margin-right: 0;
     }
-    .flagImg{
+
+    .flagImg {
         width: 20px !important;
     }
-    .scrollNav .navbar-collapse{
-        top:0
+
+    .scrollNav .navbar-collapse {
+        top: 0
     }
-    section.heroSec{
-        padding:0 !important
+
+    section.heroSec {
+        padding: 0 !important
     }
-    .firstAboutDetails{
+
+    .firstAboutDetails {
         padding: 0;
     }
-    .abouPagetImg{
+
+    .abouPagetImg {
         margin-left: 10px;
     }
-    .innerHeaderContent{
+
+    .innerHeaderContent {
         text-align: center;
         font-size: 2.5em;
     }
-    .innerHero{
-        height:312px
+
+    .innerHero {
+        height: 312px
     }
+
     .abouPagetImg {
         margin-bottom: 20px;
     }
-    .copyImg{
+
+    .copyImg {
         width: 100%;
         margin-bottom: 20px;
     }
-    .privacyList{
+
+    .privacyList {
         float: none;
         margin-top: 20px;
         text-align: center;
     }
-    .copy{
+
+    .copy {
         margin-top: 15px;
     }
-    .compitionllsnavpills .nav-link{
+
+    .compitionllsnavpills .nav-link {
         font-size: 1em;
         padding: 10px
     }
-    .comptionTab-content-cont{
+
+    .comptionTab-content-cont {
         padding: 0;
-        padding-top:20px;
+        padding-top: 20px;
     }
-    .resultsLink{
+
+    .resultsLink {
         float: none;
         width: 100%;
     }
-    .compition-Pillls{
+
+    .compition-Pillls {
         flex-direction: row !important;
         margin-bottom: 10px;
     }
-    .compition-Pillls.nav-pills .nav-link{
-margin-bottom: 0;
-padding:10px
+
+    .compition-Pillls.nav-pills .nav-link {
+        margin-bottom: 0;
+        padding: 10px
     }
-    .mediaPageGallery .mediaImg{
+
+    .mediaPageGallery .mediaImg {
         width: 100%;
     }
-    .mediaPills .nav-link{
+
+    .mediaPills .nav-link {
         margin-left: 30px;
     }
 }
-@media(min-width:820px) and (max-width:1100px){
-    .navbar-collapse{
+
+@media(min-width:820px) and (max-width:1100px) {
+    .navbar-collapse {
         left: auto;
     }
-    .aboutImg{
+
+    .aboutImg {
         width: 100%;
     }
-    .firstAboutDetails{padding: 20px;}
-    .resultsLink{
+
+    .firstAboutDetails {
+        padding: 20px;
+    }
+
+    .resultsLink {
         width: 150px;
         float: left;
     }
-    .mediaPageGallery .mediaImg{
+
+    .mediaPageGallery .mediaImg {
         width: 25%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+
+
+    .navbar .dropdown {
+        position: static;
+    }
+
+    .navbar .dropdown-menu {
+        width: 100vw;
+        padding: 32px 0;
+        right: -12%;
+        /*  height of nav-item  */
+        top: 100%;
+        left: 0;
+    }
+
+    /* shows the dropdown menu on hover */
+    .navbar .dropdown:hover .dropdown-menu,
+    .navbar .dropdown .dropdown-menu:hover {
+        display: block !important;
+    }
+
+    .navbar .dropdown-menu {
+        background-color: #fff;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu .nav-link {
+        color: black;
+        padding: 0;
+        padding-bottom: 4px;
+    }
+
+
+
+    .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link {
+        color: black;
+
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link span {
+        font-size: 12px;
+        font-weight: 400;
+
+    }
+    .navbar-expand-lg .navbar-nav .nav-item .dropdown-menu .nav-item
+    {
+        text-align: right;
+        margin-bottom: 24px;
     }
 }
