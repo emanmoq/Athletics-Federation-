@@ -105,8 +105,8 @@ li {
     transition: all .5s;
     background-color: white;
     animation: sticky;
-    background-color: white;
-    padding: 5px 0
+    padding: 5px 0;
+    height: 80px;
 }
 
 .scrollNav .navbar-expand-lg .navbar-nav .nav-item .nav-link {
@@ -2090,6 +2090,7 @@ header .headerLogo {
     }
     .scrollNav .navbar{
         background-color: white;;
+        transition: all .5s;
     }
 
     /* shows the dropdown menu on hover */
