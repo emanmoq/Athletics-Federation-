@@ -2000,14 +2000,15 @@ padding:10px
     .navbar-expand-lg .navbar-nav .dropdown-menu .nav-link {
         color: black;
         padding: 0;
+        font-family: "FF Shamel Sans bold";
         padding-bottom: 4px;
     }
-
-
-
     .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link {
         color: black;
 
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link:hover{
+        color:#004F38
     }
     .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link span {
         font-size: 12px;
