@@ -103,7 +103,7 @@ li {
     width: 100%;
     right: 0;
     transition: all .5s;
-    ;
+    background-color: white;
     animation: sticky;
     background-color: white;
     padding: 5px 0
@@ -189,11 +189,17 @@ header {
     padding: 24px 0;
     z-index: 999;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar.navbar-expand-lg {
     display: flex;
     justify-content: space-between;
+   width: 1264px;
+   height: 100%;
+   position: unset;
+
 }
 
 .navbar-expand-lg .navbar-nav,
@@ -1772,18 +1778,21 @@ header .headerLogo {
     font-weight: 400;
     font-size: 1.125em;
     color: #000000;
-border: 1px solid #BFBFBF;
-justify-content: space-between;
-padding: 0 16px;
-}
-.resultUpperBtn:hover{
-    background-color: #004F38;
-    color: white;;
+    border: 1px solid #BFBFBF;
+    justify-content: space-between;
+    padding: 0 16px;
 }
 
-.resultUpperBtn  span:last-child{
+.resultUpperBtn:hover {
+    background-color: #004F38;
+    color: white;
+    ;
+}
+
+.resultUpperBtn span:last-child {
     margin-right: auto;
 }
+
 @media(max-width:850px) {
     body {
         font-size: 14px;
@@ -1923,15 +1932,15 @@ padding: 0 16px;
     }
 
     header {
-        top: 50px
+      padding: 24px;
     }
 
     .navbar-collapse {
         background-color: white;
         position: absolute;
-        width: 100vw;
-        top: -61px;
-        left: -15px;
+        width: 100%;
+        top: -77px;
+        left: 0;
         padding: 10px;
     }
 
@@ -2065,13 +2074,22 @@ padding: 0 16px;
     }
 
     .navbar .dropdown-menu {
-        width: 100vw;
+        width: 100%;
         padding: 32px 0;
-        right: -12%;
-        /*  height of nav-item  */
+        right: 0;
         top: 100%;
         left: 0;
         border: 0;
+    }
+
+
+    header .navbar {
+        position: absolute;
+        width:100%;
+    
+    }
+    .scrollNav .navbar{
+        background-color: white;;
     }
 
     /* shows the dropdown menu on hover */
@@ -2097,8 +2115,9 @@ padding: 0 16px;
         color: black;
 
     }
-    .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link:hover{
-        color:#004F38
+
+    .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link:hover {
+        color: #004F38
     }
 
     .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu .nav-link span {
