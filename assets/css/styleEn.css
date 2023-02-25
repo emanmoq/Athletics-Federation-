@@ -1814,6 +1814,9 @@ font-family: "FF Shamel Sans bold";
     color: #BFBFBF;
     margin: 0;
 }
+.galleryhoverCont .moreImgBtn {
+    margin:0
+}
 @media(max-width:850px){
     .seasonsDropdown{
         width: 100%;;
