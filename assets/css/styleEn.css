@@ -1681,37 +1681,6 @@ header.scrollNav .navbar-toggler i{
     text-decoration: underline;
 }
 
-.resultPageHeader {
-    margin-bottom: 34px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.resultPageHeader .sectionTitle {
-    margin-bottom: 0;
-    align-self: center;
-}
-
-.resultUpperBtn {
-    margin-bottom: 82px;
-    width: 408px;
-    height: 72px;
-    font-weight: 400;
-    font-size: 1.125em;
-    color: #000000;
-border: 1px solid #BFBFBF;
-justify-content: space-between;
-padding: 0 16px;
-}
-.resultUpperBtn:hover{
-    background-color: #004F38;
-    color: white;;
-}
-
-.resultUpperBtn  span:last-child{
-    margin-right: auto;
-}
 @media (min-width: 1200px) {
     .container {
         max-width: 1264px;
@@ -1768,7 +1737,86 @@ header.scrollNav .scrollNavLogo,header .headerLogo{
 .navbar-brand{
     margin-left: 0;
 }
+
+.resultPageHeader {
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.resultPageHeader .sectionTitle {
+    margin-bottom: 0;
+    align-self: center;
+}
+
+.resultUpperBtn {
+    width: 100%;
+    height: 72px;
+    font-weight: 400;
+    font-size: 1.125em;
+    color: #000000;
+border: 1px solid #BFBFBF;
+justify-content: space-between;
+padding: 0 16px;
+}
+.resultUpperBtn:hover{
+    background-color: #004F38;
+    color: white;;
+}
+
+.resultUpperBtn  span:last-child{
+    margin-right: auto;
+}
+.resultUpperBtn.dropdown-toggle::after{
+    display: none;
+}
+.seasonsDropdown .dropdown-menu {
+    width: 100%;
+    text-align: left;
+    background-color: #F9F9F9;
+}
+.seasonsDropdown{
+    width: 408px;
+    margin-bottom: 82px;
+    height: 72px;
+}
+.seasonsDropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #004F38;
+    color: white;
+    transition: all .5s;
+}
+.seasonsDropdown .dropdown-menu .dropdown-item{
+    transition: all .5s;
+    padding:10px
+}
+.Galleryimg:hover .hoverImg{
+opacity: 1;
+}
+.galleryhoverCont{
+  display: flex;
+  justify-content: space-between;
+}
+.galleryHoverImg{
+    justify-content: end;
+}
+.galleryHoverDetails h6{
+font-size: 2em;
+font-family: "FF Shamel Sans bold";
+
+}
+.galleryHoverImg .moreImgBtn{
+    align-self: center;
+}
+.galleryHoverDetails span{
+    font-size: 1.25em;
+    color: #BFBFBF;
+    margin: 0;
+}
 @media(max-width:850px){
+    .seasonsDropdown{
+        width: 100%;;
+    }
     body{
         font-size: 14px;
         overflow-x: hidden;

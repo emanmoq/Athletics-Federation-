@@ -1772,8 +1772,8 @@ header .headerLogo {
 }
 
 .resultUpperBtn {
-    margin-bottom: 82px;
-    width: 408px;
+  
+    width: 100%;
     height: 72px;
     font-weight: 400;
     font-size: 1.125em;
@@ -1792,8 +1792,55 @@ header .headerLogo {
 .resultUpperBtn span:last-child {
     margin-right: auto;
 }
+.resultUpperBtn.dropdown-toggle::after{
+    display: none;
+}
+.seasonsDropdown .dropdown-menu {
+    width: 100%;
+    text-align: right;
+    background-color: #F9F9F9;
+}
+.seasonsDropdown{
+    width: 408px;
+    margin-bottom: 82px;
+    height: 72px;
+}
+.seasonsDropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #004F38;
+    color: white;
+    transition: all .5s;
+}
+.seasonsDropdown .dropdown-menu .dropdown-item{
+    transition: all .5s;
+    padding:10px
+}
+.Galleryimg:hover .hoverImg{
+opacity: 1;
+}
+.galleryhoverCont{
+  display: flex;
+  justify-content: space-between;
+}
+.galleryHoverImg{
+    justify-content: end;
+}
+.galleryHoverDetails h6{
+font-size: 2em;
+font-family: "FF Shamel Sans bold";
 
+}
+.galleryHoverImg .moreImgBtn{
+    align-self: center;
+}
+.galleryHoverDetails span{
+    font-size: 1.25em;
+    color: #BFBFBF;
+    margin: 0;
+}
 @media(max-width:850px) {
+    .seasonsDropdown{
+        width: 100%;;
+    }
     body {
         font-size: 14px;
         overflow-x: hidden;

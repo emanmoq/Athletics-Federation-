@@ -47,7 +47,7 @@
       </div>
     </div>
   </div>
-   <header>
+  <header>
     <nav class="navbar navbar-expand-lg ">
       <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" class="headerLogo" alt="">
         <img src="assets/images/scrollLogo.png" class="scrollNavLogo" alt="">
@@ -195,7 +195,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <a href="javaScript:;" class="btn resultUpperBtn" ><span>بطولة الرياض الشتوية</span><span><i class="lni lni-arrow-down"></i></span> </a>
+          <div class="dropdown seasonsDropdown">
+            <a href="javaScript:;" class="btn resultUpperBtn dropdown-toggle" id="seasonDropdownButton" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><span>بطولة الرياض الشتوية</span><span><i
+                  class="lni lni-arrow-down"></i></span> </a>
+            <div class="dropdown-menu" aria-labelledby="seasonDropdownButton">
+              <a class="dropdown-item" href="#">الموسم 1</a>
+              <a class="dropdown-item" href="#">الموسما لثاني </a>
+            </div>
+          </div>
           <div class="resultPageHeader clearfix">
             <h6 class="sectionTitle innerSctionTitle">النتائج النهائية</h6>
             <a href="Participantsname.html" class="btn parNamesLink"><span>اسماء المشتركين</span> </a>
