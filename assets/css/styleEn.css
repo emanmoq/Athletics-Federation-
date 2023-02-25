@@ -882,6 +882,7 @@ header {
 
 .othersImg {
     height: 408px;
+    position: relative;
 }
 
 .othersImg img {
@@ -1817,6 +1818,12 @@ font-family: "FF Shamel Sans bold";
 .galleryhoverCont .moreImgBtn {
     margin:0
 }
+.othersImg:hover .hoverImg{
+    opacity: 1;
+ }
+ .othersImg:hover .hoverImg .galleryHoverDetails h6{
+font-size: 1.8em;
+ }
 @media(max-width:850px){
     .seasonsDropdown{
         width: 100%;;
