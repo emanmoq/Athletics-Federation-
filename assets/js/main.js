@@ -1,4 +1,7 @@
 jQuery(function ($) {
+  
+
+
     $(window).scroll(function () {
       
         scrollTop = $(window).scrollTop();
@@ -211,6 +214,10 @@ jQuery(function ($) {
       
             // do something here
         }	
-    });  
+    });
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+      })  
 });
 

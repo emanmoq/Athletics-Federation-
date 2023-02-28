@@ -857,8 +857,7 @@ header {
     color: white
 }
 
-.btn.focus,
-.btn:focus {
+.btn.focus{
     outline: 0;
     box-shadow: none;
 }
