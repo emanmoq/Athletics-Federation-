@@ -1835,6 +1835,12 @@ font-family: "FF Shamel Sans bold";
 .galleryHoverImg .moreImgBtn{
     align-self: center;
 }
+.compitionSliderImg{
+    position: relative;
+}
+.compitionSliderImg:hover .galleryHoverImg{
+    opacity: 1;
+}
 .galleryHoverDetails span{
     font-size: 1.25em;
     color: #BFBFBF;
