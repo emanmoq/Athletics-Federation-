@@ -1821,6 +1821,8 @@ opacity: 1;
 .galleryhoverCont{
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
 }
 .galleryHoverImg{
     justify-content: end;
@@ -1846,6 +1848,24 @@ font-family: "FF Shamel Sans bold";
  }
  .othersImg:hover .hoverImg .galleryHoverDetails h6{
 font-size: 1.8em;
+ }
+ .expandImg{
+    display: flex;
+    justify-content: center;
+    color:white
+ }
+ .expandImg i{
+    align-self: center;
+    color:white;
+ }
+ .lb-outerContainer{
+    width: 30% !important;
+ }
+ .lightbox .lb-image{
+    width: 100% !important;
+ }
+ .galleryHoverImg .expandImg{
+align-self: flex-start;
  }
 @media(max-width:850px) {
     .seasonsDropdown{
